@@ -1,0 +1,6 @@
+- single greeting
+- stand in with 'friend' for nulls
+- single shouting
+- handle two names
+- handle multiple names
+- handle multiple names and shouting
