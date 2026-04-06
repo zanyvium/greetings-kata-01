@@ -9,3 +9,8 @@ def test_single_greeting():
 def test_stand_in_for_null():
     name = ""
     assert greetings(name) == "Hello, my friend."
+
+
+def test_shouting():
+    name = "JERRY"
+    assert greetings(name) == f"HELLO {name}!"
