@@ -1,6 +1,12 @@
 - single greeting
+    - Greet a single Write a method greet(name) that uses name in a simple greeting. For example, when name is ‘Bob’, the method should return a string “Hello, Bob.”
 - stand in with 'friend' for nulls
+    - Handle nulls by using a stand-in Handle nulls by introducing a stand-in. For example, when name is null, then the method should return the string “Hello, my friend.”
 - single shouting
+    - Handle shouting When a name is all uppercase, then the method should shout back to the user. For example, when name is “JERRY” then the method should return the string “HELLO JERRY!”
 - handle two names
+    - Handle two names Handle the input of two names. When name is an array of two names, then both names should be printed. For example, when name is [“Jill”, “Jane”], then the method should return the string “Hello, Jill and Jane”
 - handle multiple names
+    - Handle more than two names Handle the arbitrarily names of input. When name represents more than two names, separate them with commas and close with and Oxford comma “and”. For example, when name is [“Amy”, “Brian”, “Charlotte”], then the method should return the string “Hello, Amy, Brian, and Charlotte”
 - handle multiple names and shouting
+    - Handle mixing of normal and shouted names Allow for mixing of normal and shouted names by separating the responses into two greetings. For example, when name is [“Amy”, “BRIAN”, “Charlotte”], then the method should return the string “Hello, Amy and Charlotte. AND HELLO BRIAN!”
