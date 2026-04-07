@@ -1,15 +1,17 @@
 def _make_stand_in_greeting() -> str:
-    return "Hello, my friend."
+    return_string = "Hello, my friend."
+    return return_string
 
 
 def _make_greetings_for_single_name(name: str | None) -> str:
     if name:
         if name.isupper():
-            return f"HELLO {name}!"
+            return_string = f"HELLO {name}!"
         else:
-            return f"Hello, {name}."
+            return_string = f"Hello, {name}."
     else:
-        return _make_stand_in_greeting()
+        return_string = _make_stand_in_greeting()
+    return return_string
 
 
 def greetings(names: list[str | None] | str | None) -> str:
