@@ -18,4 +18,4 @@ def test_shouting():
 
 def test_two_lower_case_names():
     names = ["Jill", "Jane"]
-    assert greetings(names) == f"Hello {names[0]} and {names[1]}."
+    assert greetings(names) == f"Hello, {names[0]} and {names[1]}."
